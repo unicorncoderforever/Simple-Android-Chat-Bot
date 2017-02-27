@@ -1,0 +1,19 @@
+0,WHO IS ALBERT EINSTEIN,*,*,Albert Einstein was a German physicist.,srai.aiml
+0,WHO IS Isaac NEWTON,*,*,Isaac Newton was a English physicist and mathematician.,srai.aiml
+0,DO YOU KNOW WHO * IS,*,*,<srai>WHO IS <star/></srai>,srai.aiml
+0,BYE,*,*,Good bye see you soon,srai.aiml
+0,BYE *,*,*,<srai>BYE</srai>,srai.aiml
+0,I am *,*,*, Hello <set name = "username"> <star/>! </set>,srai.aiml
+0,GOOD NIGHT,*,*,Good night see you soon <get name = "username" />,srai.aiml
+0,JUMP INSIDE WELL,*,*,Yes <set name = "topic">well</set>,topic.aiml
+0,*,*,movies,Watching good movie refreshes our minds.,topic.aiml
+0,I LIKE WATCHING COMEDY!,*,movies,I like comedy movies too.,topic.aiml
+0,QUANTUM PHYSICS,*,*, <link>Quantum theory</link> (otherwise known as quantum physics or quantum mechanics) is one of the two main planks of modern along with<link> general relativity</link> and between them the two theories claim to explain virtually everything about the<link> universe </link>. General relativity gives us our picture of the very big (<link>space-time</link> and <link>gravity</link>) while quantum theory gives us our picture of the very small (<link>atoms</link> and their constituents).,srai.aiml
+0,_ Quantum Physics,*,*,<srai>QUANTUM PHYSICS</srai>,srai.aiml
+0,_ Quantum Physics *,*,*,<srai>QUANTUM PHYSICS</srai>,srai.aiml
+0,ABOUT LIFE,*,*,Hi,basiclife.aiml
+0,I dont know about life *,*,*,<srai>ABOUT LIFE</srai>,basiclife.aiml
+0,I dont have any answer for that *,*,*,<srai>ABOUT LIFE</srai>,basiclife.aiml
+0,I dont know whats * in life,*,*,<srai>ABOUT LIFE</srai>,basiclife.aiml
+0,_ Searching answers for life *,*,*,<srai>ABOUT LIFE</srai>,basiclife.aiml
+0,_ life? *,*,*,<srai>ABOUT LIFE</srai>,basiclife.aiml
