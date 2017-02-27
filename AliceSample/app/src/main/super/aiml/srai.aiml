@@ -1,0 +1,68 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version = "1.0.1" encoding = "UTF-8"?>
+   <category>
+      <pattern> WHO IS ALBERT EINSTEIN </pattern>
+      <template>Albert Einstein was a German physicist.</template>
+   </category>
+   
+   <category>
+      <pattern> WHO IS Isaac NEWTON </pattern>
+      <template>Isaac Newton was a English physicist and mathematician.</template>
+   </category>
+   
+   <category>
+      <pattern>DO YOU KNOW WHO * IS</pattern>
+      <template>
+         <srai>WHO IS <star/></srai>
+      </template>
+   </category>
+   <category>
+   <category>
+   <pattern>BYE</pattern>
+   <template>Good Bye see you soon</template>
+   </category>
+   <pattern>BYE * </pattern>
+    <template> <srai>BYE</srai>
+    </template>
+</category>
+  <category>
+      <pattern>I am *</pattern>
+      <template>
+         Hello <set name = "username"> <star/>! </set>
+      </template>  
+   </category> 
+<category>
+<pattern>GOOD NIGHT</pattern>
+<template>Good night see you soon <get name="username"/></template>
+</category>
+  <category>
+      <pattern>JUMP INSIDE WELL</pattern>
+      <template>Yes <set name = "topic">well</set></template>  
+   </category>
+   
+   <topic name = "well">
+      <category>
+         <pattern> * </pattern>
+         <template>Watching good movie refreshes our minds.</template>
+      </category>
+      
+      <category>
+         <pattern> I LIKE WATCHING COMEDY! </pattern>
+         <template>I like comedy movies too.</template>
+      </category>
+   </topic>
+<category>
+<category>
+<pattern>_ Quantum Physics *</pattern>
+<template><srai>QUANTUM PHYSICS</srai></template>
+</category>
+<category>
+<pattern>_ Quantum Physics</pattern>
+<template><srai>QUANTUM PHYSICS</srai></template>
+</category>
+<category>
+<pattern>QUANTUM PHYSICS</pattern>
+<template> <link>Quantum theory</link> (otherwise known as quantum physics or quantum mechanics) is one of the two main planks of modern long with<link> general relativity</link> and between them the two theories claim to explain virtually everything about the<link> universe </link>. General relativity gives us our picture of the very big (<link>space-time</link> and <link>gravity</link>) while quantum theory gives us our picture of the very small (<link>atoms</link> and their constituents).</template>
+</category>
+</aiml>
+

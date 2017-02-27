@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: bot_profile.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: February 20, 2013 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2013 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<category><pattern>I dont know about life *</pattern>
+<template><srai>ABOUT LIFE</srai></template>
+</category>
+<category><pattern>I dont have any answer for that *</pattern>
+<template><srai>ABOUT LIFE</srai></template>
+</category>
+
+<category><pattern>I dont know whats * in life</pattern>
+<template><srai>ABOUT LIFE</srai></template>
+</category>
+
+<category><pattern>_ Searching answers for life *</pattern>
+<template><srai>ABOUT LIFE</srai></template>
+</category>
+
+<category><pattern>ABOUT LIFE</pattern>
+<template>Hi</template>
+</category>
+
+<category><pattern>_ life? *</pattern>
+<template><srai>ABOUT LIFE</srai></template>
+</category>
+</aiml>
